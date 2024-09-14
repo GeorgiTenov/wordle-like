@@ -1,0 +1,72 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#word{
+    z-index: 1;
+    display: none;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: aquamarine;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#win{
+    z-index: 1;
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
